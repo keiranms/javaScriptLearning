@@ -57,3 +57,4 @@ console.log(s.split('e')); //'e' splits string at each 'e' character.
 const t = 'technology, computers, it, code';
 console.log(t.split(', '));
 
+console.log(fruits.indexOf('oranges'));

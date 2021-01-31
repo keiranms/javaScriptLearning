@@ -6,7 +6,7 @@ const numbers = new Array(1,2,3,4,5); //'new' is a constructor
 console.log(numbers);
 
 //For the most part this is the standard way to do it:
-const fruits =['Apple','Banana','Orange'];
+const fruits = ['Apple','Banana','Orange'];
 
 console.log(fruits);
 
@@ -36,3 +36,5 @@ console.log(fruits);
 //Removing the last value
 fruits.pop();
 console.log(fruits[2]); //pops mangos off
+
+console.log(Array.isArray(fruits));
