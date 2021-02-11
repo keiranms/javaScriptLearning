@@ -34,7 +34,12 @@ fruits.unshift("Strawberries"); // adds to beggining
 console.log(fruits);
 
 //Removing the last value
-fruits.pop();
-console.log(fruits[2]); //pops mangos off
+fruits.pop(); //pops mangos off because its at the end
+console.log(fruits); 
 
 console.log(Array.isArray(fruits));
+
+console.log(fruits.indexOf('Orange'));
+
+console.log(fruits);
+
